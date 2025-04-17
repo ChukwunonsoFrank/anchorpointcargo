@@ -1291,12 +1291,14 @@
                                                 data-to="150" data-interval="25" data-before=""
                                                 data-before-style="" data-after=""
                                                 data-after-style="">150</span>
-                                            <span class="pbmit-fid"><span>k</span></span>
+                                            <span class="pbmit-fid"><span>M</span></span>
                                         </h4>
                                     </div>
+                                    <div>
+                                        <p class="text-white fw-semibold">Parcels Shipped</p>
+                                    </div>
                                     <div class="pbmit-fid-icon-title">
-                                        <span class="pbmit-fid-title">Join the companies that trust create to lead
-                                            their AI transformation.</span>
+                                        <span class="pbmit-fid-title">Join the future of secure logistics and operations today.</span>
                                     </div>
                                 </div>
                             </div>
@@ -1311,13 +1313,15 @@
                                                 data-appear-animation="animateDigits" data-from="0"
                                                 data-to="245" data-interval="25" data-before=""
                                                 data-before-style="" data-after=""
-                                                data-after-style="">245</span>
+                                                data-after-style="">845</span>
                                             <span class="pbmit-fid"><span>k</span></span>
                                         </h4>
                                     </div>
+                                    <div>
+                                        <p class="text-white fw-semibold">Orders Fufilled</p>
+                                    </div>
                                     <div class="pbmit-fid-icon-title">
-                                        <span class="pbmit-fid-title">Successful Project Completion for all
-                                            <br>transport authorize</span>
+                                        <span class="pbmit-fid-title">Peace of mind logistics and order fufillment services.</span>
                                     </div>
                                 </div>
                             </div>
