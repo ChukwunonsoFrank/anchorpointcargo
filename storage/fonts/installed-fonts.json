@@ -1,0 +1,13 @@
+{
+    "poppins": {
+        "300": "D:\\laragon\\www\\365globalcourierservices\\storage\\fonts\/poppins_300_4a08cccbc2911e3077321a0298f4e093",
+        "normal": "D:\\laragon\\www\\365globalcourierservices\\storage\\fonts\/poppins_normal_442dffd12abdf0df26c14405d3f49bfa",
+        "500": "D:\\laragon\\www\\365globalcourierservices\\storage\\fonts\/poppins_500_6a6f5e017da7e062546fd806ab3b249c",
+        "bold": "poppins_bold_2d1c4b360c3ac297e98fc2cfd808a2cc"
+    },
+    "inter": {
+        "normal": "D:\\laragon\\www\\365globalcourierservices\\storage\\fonts\/inter_normal_4c1c39b2d60dc6de8a3bc272ce3fe7dc",
+        "500": "D:\\laragon\\www\\365globalcourierservices\\storage\\fonts\/inter_500_73384d6e47fd66bbc719b75497af932b",
+        "bold": "inter_bold_c57a050bb9f74fe1522e9f687ba11188"
+    }
+}
