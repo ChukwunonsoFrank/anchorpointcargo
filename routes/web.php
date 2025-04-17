@@ -15,6 +15,15 @@ use App\Http\Controllers\PdfController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/optimize', function() {
+    Artisan::call('optimize');
+    dd('Optimization complete...');
+});
+
+Route::get('/clear-cache', function() {
+    Artisan::call('optimize:clear');
+    dd('Clear cache complete...');
+});
 
 Route::get('/', function () {
     return view('frontend.index');
