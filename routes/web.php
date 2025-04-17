@@ -16,6 +16,15 @@ use Illuminate\Support\Facades\Artisan;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+/**
+ * Artisan commands
+ */
+Route::get('/link-storage', function() {
+    Artisan::call('storage:link');
+    dd('Link complete...');
+});
+
 Route::get('/optimize', function() {
     Artisan::call('optimize');
     dd('Optimization complete...');
