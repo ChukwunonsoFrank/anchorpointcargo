@@ -2660,7 +2660,7 @@
                     style="background: #FFF;">
                     <div class="invoice-logo-content">
                         <div class="invoice-logo">
-                            <a href="car_booking.html" class="logo"><img
+                            <a href="{{ route('dashboard') }}" class="logo"><img
                                     src="{{ asset('frontend/images/logo-with-black.png') }}"
                                     alt=""></a>
                         </div>
