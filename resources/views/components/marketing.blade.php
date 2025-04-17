@@ -138,9 +138,9 @@
                                                         We deliver your package anywhere with unmatched reliability and precision. Whether it’s across the street or across the globe, we ensure your shipment reaches its destination on time and in perfect condition. Trust us to handle your deliveries with care, every step of the way.
                                                     </div>
                                                     <div class="pbmit-button transform-bottom transform-delay-4">
-                                                        <a class="pbmit-btn" href="{{ route('services.index') }}">
+                                                        <a class="pbmit-btn" href="{{ route('track') }}">
                                                             <span class="pbmit-button-content-wrapper">
-                                                                <span class="pbmit-button-text">our services</span>
+                                                                <span class="pbmit-button-text">track package</span>
                                                             </span>
                                                         </a>
                                                     </div>
@@ -173,9 +173,9 @@
                                                         We deliver your package anywhere with unmatched reliability and precision. Whether it’s across the street or across the globe, we ensure your shipment reaches its destination on time and in perfect condition. Trust us to handle your deliveries with care, every step of the way.
                                                     </div>
                                                     <div class="pbmit-button transform-bottom transform-delay-4">
-                                                        <a class="pbmit-btn" href="{{ route('services.index') }}">
+                                                        <a class="pbmit-btn" href="{{ route('track') }}">
                                                             <span class="pbmit-button-content-wrapper">
-                                                                <span class="pbmit-button-text">our services</span>
+                                                                <span class="pbmit-button-text">track package</span>
                                                             </span>
                                                         </a>
                                                     </div>
