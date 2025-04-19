@@ -621,7 +621,7 @@
                                 <h4 class="pbmit-static-box-title">Transport packages</h4>
                             </div>
                             <div class="pbmit-content-box col-md-6">
-                                <div class="pbmit-box-number">03</div>
+                                <div class="pbmit-box-number">02</div>
                                 <div class="pbmit-content-inner">
                                     <h4 class="pbmit-static-box-title">Transport packages</h4>
                                     <div class="pbmit-static-box-desc">Moving your cargo efficiently and swiftly.
@@ -644,7 +644,7 @@
                                 <h4 class="pbmit-static-box-title">Warehousing Operation</h4>
                             </div>
                             <div class="pbmit-content-box col-md-6">
-                                <div class="pbmit-box-number">04</div>
+                                <div class="pbmit-box-number">03</div>
                                 <div class="pbmit-content-inner">
                                     <h4 class="pbmit-static-box-title">Warehousing Operation</h4>
                                     <div class="pbmit-static-box-desc">Safely stored and meticulously managed.
@@ -663,7 +663,7 @@
                                     <img src="{{ asset('frontend/images/homepage-1/static-box/static-box-03.jpg') }}" class="img-fluid"
                                         alt="Deliver packages">
                                 </div>
-                                <div class="pbmit-box-number">02</div>
+                                <div class="pbmit-box-number">04</div>
                                 <h4 class="pbmit-static-box-title">Deliver packages</h4>
                             </div>
                             <div class="pbmit-content-box col-md-6">
