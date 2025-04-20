@@ -29,8 +29,7 @@
         <div class="iq-sidebar">
             <div class="iq-navbar-logo d-flex justify-content-between">
                 <a href="/welcome" class="header-logo">
-                    <img src="{{ asset('frontend/images/logo-with-black.png') }}" class="img-fluid rounded"
-                        alt="">
+                    <img src="{{ asset('frontend/images/logo-with-black.png') }}" alt="">
                 </a>
                 <div class="iq-menu-bt align-self-center">
                     <div class="wrapper-menu">
@@ -74,8 +73,7 @@
                         </div>
                         <div class="iq-navbar-logo d-flex justify-content-between ml-3">
                             <a href="{{ route('dashboard') }}" class="header-logo">
-                                <img src="{{ asset('frontend/img/logo/logo.svg') }}"
-                                    class="img-fluid rounded" alt="">
+                                <img src="{{ asset('frontend/images/logo-with-black.png') }}" alt="">
                             </a>
                         </div>
                     </div>
