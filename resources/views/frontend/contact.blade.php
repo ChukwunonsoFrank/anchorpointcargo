@@ -14,8 +14,7 @@
 										<h2 class="pbmit-element-title">
 											Mail Us 24/7
 										</h2>
-										<div class="pbmit-heading-desc"><a href="https://shipex-demo.pbminfotech.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ddadbfb0b4b3bbb2a9b8beb59dbab0bcb4b1f3beb2b0">[email&#160;protected]</a> <br>
-											<a href="https://shipex-demo.pbminfotech.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="442a2b69362134283d043426292d2a222b3021272c6a272b29">[email&#160;protected]</a>
+										<div class="pbmit-heading-desc"><a href="mailto:info@anchorpointcargo.com" class="__cf_email__">info@anchorpointcargo.com</a>
 										</div>
 									</div>
 									<div class="pbmit-ihbox-icon">
@@ -42,8 +41,8 @@
 										<h2 class="pbmit-element-title">
 											Our Location
 										</h2>
-										<div class="pbmit-heading-desc">85 Preston, Inglewood, Maine <br>
-											98380, Hoofddorp Noord- 2132
+										<div class="pbmit-heading-desc">
+											Unit 3, International Business Park, Stratford, United Kingdom
 										</div>
 									</div>
 									<div class="pbmit-ihbox-icon">
@@ -70,8 +69,7 @@
 										<h2 class="pbmit-element-title">
 											Call Us 24/7
 										</h2>
-										<div class="pbmit-heading-desc">Phone: +001 236-895-4732<br>
-											Mobile: +9123 895-4732-236
+										<div class="pbmit-heading-desc">Phone: +001 236-895-4732
 										</div>
 									</div>
 									<div class="pbmit-ihbox-icon">

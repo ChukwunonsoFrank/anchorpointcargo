@@ -167,6 +167,14 @@
                                     </ul>
                                 </aside>
                             </div>
+                            <div class="pbmit-footer-widget-col-3 col-md-2">
+                                <aside class="widget">
+                                    <h2 class="widget-title">Our Location</h2>
+                                    <ul class="menu">
+                                        <li>Unit 3, International Business Park, Stratford, United Kingdom</li>
+                                    </ul>
+                                </aside>
+                            </div>
                         </div>
                     </div>
                 </div>
