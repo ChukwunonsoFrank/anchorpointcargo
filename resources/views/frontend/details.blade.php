@@ -21,7 +21,11 @@
                                 <div><img width="200" height="200"
                                     src="{{ $order->package_image ? asset('storage/' . $order->package_image) : asset('default-package-image.png') }}"
                                     alt=""></div>
-                                <div class="row mt-5">
+                                <div class="mt-4">
+                                    <span class="title d-inline-block mb-2 fw-bold">Status: </span>
+                                    <span class="badge rounded-pill text-bg-success">{{ $order->status }}</span>
+                                </div>
+                                <div class="row mt-4">
                                     <div class="col-md-4">
                                         <span class="title d-inline-block mb-2 fw-bold">Sender Fullname</span>
                                         <input value="{{ $order->sender_fullname }}" type="text" class="form-control" readonly>
@@ -61,10 +65,6 @@
                                     <div class="col-md-4">
                                         <span class="title d-inline-block mb-2 fw-bold">Carrier</span>
                                         <input value="{{ $order->carrier }}" type="text" class="form-control" readonly>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <span class="title d-inline-block mb-2 fw-bold">Status</span>
-                                        <input value="{{ $order->status }}" type="text" class="form-control" readonly>
                                     </div>
                                     <div class="col-md-4">
                                         <span class="title d-inline-block mb-2 fw-bold">Quantity</span>
