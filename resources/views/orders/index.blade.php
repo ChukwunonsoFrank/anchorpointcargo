@@ -68,7 +68,7 @@
                                                     </td>
                                                     <td>
                                                         <a href="/generate-pdf?order_id={{$order->id}}">
-                                                            <button class="btn btn-primary"><b><span style="font-size: 11px !important;"><i class="fas fa-download"></i>Download Receipt</span></b></button>
+                                                            <button class="btn btn-primary"><b><span style="font-size: 11px !important;"><i class="fas fa-download"></i> Download Receipt</span></b></button>
                                                         </a>
                                                     </td>
                                                 </tr>
