@@ -38,6 +38,27 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="{{ asset('frontend/css/responsive.css') }}">
+
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '74bdbcbbafb4badbb5e364a9bc9eb687b3f98e0d';
+        window.smartsupp || (function(d) {
+            var s, c, o = smartsupp = function() {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+
 </head>
 
 <body>
@@ -55,7 +76,8 @@
                                 <div class="site-branding">
                                     <h1 class="site-title">
                                         <a href="{{ route('home') }}">
-                                            <img class="logo-img" src="{{ asset('frontend/images/logo.png') }}" alt="AnchorPointCargo">
+                                            <img class="logo-img" src="{{ asset('frontend/images/logo.png') }}"
+                                                alt="AnchorPointCargo">
                                         </a>
                                     </h1>
                                 </div>
@@ -113,14 +135,15 @@
                 </div>
             </div>
             <div class="pbmit-slider-area pbmit-slider-one">
-                <div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="true"
-                    data-arrows="false" data-columns="1" data-margin="0" data-effect="fade">
+                <div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="true" data-arrows="false"
+                    data-columns="1" data-margin="0" data-effect="fade">
                     <div class="swiper-wrapper">
                         <!-- Slide1 -->
                         <div class="swiper-slide">
                             <div class="pbmit-slider-item">
                                 <div class="pbmit-slider-bg"
-                                    style="background-image: url({{ asset('frontend/images/banner-slider-img/demo-02-slide1.jpg') }});"></div>
+                                    style="background-image: url({{ asset('frontend/images/banner-slider-img/demo-02-slide1.jpg') }});">
+                                </div>
                                 <div class="container">
                                     <div class="pbmit-slider-content">
                                         <div class="row align-items-end g-0">
@@ -134,7 +157,11 @@
                                             <div class="col-md-12 col-lg-4">
                                                 <div class="pbmit-slider-right-content">
                                                     <div class="pbmit-desc transform-center transform-delay-3">
-                                                        We deliver your package anywhere with unmatched reliability and precision. Whether it’s across the street or across the globe, we ensure your shipment reaches its destination on time and in perfect condition. Trust us to handle your deliveries with care, every step of the way.
+                                                        We deliver your package anywhere with unmatched reliability and
+                                                        precision. Whether it’s across the street or across the globe,
+                                                        we ensure your shipment reaches its destination on time and in
+                                                        perfect condition. Trust us to handle your deliveries with care,
+                                                        every step of the way.
                                                     </div>
                                                     <div class="pbmit-button transform-bottom transform-delay-4">
                                                         <a class="pbmit-btn" href="{{ route('track') }}">
@@ -154,7 +181,8 @@
                         <div class="swiper-slide">
                             <div class="pbmit-slider-item">
                                 <div class="pbmit-slider-bg"
-                                    style="background-image: url({{ asset('frontend/images/banner-slider-img/demo-02-slide3.jpg') }});"></div>
+                                    style="background-image: url({{ asset('frontend/images/banner-slider-img/demo-02-slide3.jpg') }});">
+                                </div>
                                 <div class="container">
                                     <div class="pbmit-slider-content">
                                         <div class="row align-items-end">
@@ -163,13 +191,18 @@
                                                     <span>Fast & Secure Logistics</span>
                                                 </h5>
                                                 <h2 class="pbmit-title transform-left-1 transform-delay-2">
-                                                    <span>Ship Freight Logistics: <br> Maximizing Capacity</span></h2>
+                                                    <span>Ship Freight Logistics: <br> Maximizing Capacity</span>
+                                                </h2>
                                                 </h2>
                                             </div>
                                             <div class="col-md-12 col-lg-4">
                                                 <div class="pbmit-slider-right-content">
                                                     <div class="pbmit-desc transform-center transform-delay-3">
-                                                        We deliver your package anywhere with unmatched reliability and precision. Whether it’s across the street or across the globe, we ensure your shipment reaches its destination on time and in perfect condition. Trust us to handle your deliveries with care, every step of the way.
+                                                        We deliver your package anywhere with unmatched reliability and
+                                                        precision. Whether it’s across the street or across the globe,
+                                                        we ensure your shipment reaches its destination on time and in
+                                                        perfect condition. Trust us to handle your deliveries with care,
+                                                        every step of the way.
                                                     </div>
                                                     <div class="pbmit-button transform-bottom transform-delay-4">
                                                         <a class="pbmit-btn" href="{{ route('track') }}">
@@ -201,7 +234,8 @@
                         <div class="row">
                             <div class="pbmit-footer-widget-col-2 col-md-4">
                                 <aside class="widget">
-                                    <img class="logo-img" width="150" src="{{ asset('frontend/images/logo.png') }}" alt="AnchorPointCargo">
+                                    <img class="logo-img" width="150"
+                                        src="{{ asset('frontend/images/logo.png') }}" alt="AnchorPointCargo">
                                 </aside>
                             </div>
                             <div class="pbmit-footer-widget-col-3 col-md-2">
@@ -232,7 +266,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="pbmit-footer-copyright-text-area">
-                                        Copyright © {{ now()->year }} <a href="#">AnchorPointCargo</a>. All Rights Reserved.
+                                        Copyright © {{ now()->year }} <a href="#">AnchorPointCargo</a>. All
+                                        Rights Reserved.
                                     </div>
                                 </div>
                             </div>

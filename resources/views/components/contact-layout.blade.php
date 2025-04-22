@@ -38,6 +38,27 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="{{ asset('frontend/css/responsive.css') }}">
+
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '74bdbcbbafb4badbb5e364a9bc9eb687b3f98e0d';
+        window.smartsupp || (function(d) {
+            var s, c, o = smartsupp = function() {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+
 </head>
 
 <body>
@@ -45,17 +66,18 @@
     <!-- page wrapper -->
     <div class="page-wrapper" id="page">
 
-		<!-- Header Main Area -->
-		<header class="site-header header-style-1">
-			<div class="pbmit-header-overlay">
-				<div class="pbmit-main-header-area">
-					<div class="container-fluid">
+        <!-- Header Main Area -->
+        <header class="site-header header-style-1">
+            <div class="pbmit-header-overlay">
+                <div class="pbmit-main-header-area">
+                    <div class="container-fluid">
                         <div class="pbmit-header-content d-flex justify-content-between align-items-center">
                             <div class="pbmit-logo-menuarea d-flex justify-content-between align-items-center">
                                 <div class="site-branding">
                                     <h1 class="site-title">
                                         <a href="{{ route('home') }}">
-                                            <img class="logo-img" src="{{ asset('frontend/images/logo.png') }}" alt="AnchorPointCargo">
+                                            <img class="logo-img" src="{{ asset('frontend/images/logo.png') }}"
+                                                alt="AnchorPointCargo">
                                         </a>
                                     </h1>
                                 </div>
@@ -110,36 +132,37 @@
                             </div>
                         </div>
                     </div>
-				</div>
-			</div>
-			<!-- Title Bar -->
-			<div class="pbmit-title-bar-wrapper">
-				<div class="container">
-					<div class="pbmit-title-bar-content">
-						<div class="pbmit-title-bar-content-inner">
-							<div class="pbmit-tbar">
-								<div class="pbmit-tbar-inner container">
-									<h1 class="pbmit-tbar-title"> Contact</h1>
-								</div>
-							</div>
-							<div class="pbmit-breadcrumb">
-								<div class="pbmit-breadcrumb-inner">
-									<span>
-										<a title="" href="#" class="home"><span>AnchorPointCargo</span></a>
-									</span>
-									<span class="sep">
-										<i class="pbmit-base-icon-angle-right"></i>
-									</span>
-									<span><span class="post-root post post-post current-item"> Contact</span></span>
-								</div>
-							</div>
-						</div>
-					</div> 
-				</div> 
-			</div>
-			<!-- Title Bar End-->
-		</header>
-		<!-- Header Main Area End Here -->
+                </div>
+            </div>
+            <!-- Title Bar -->
+            <div class="pbmit-title-bar-wrapper">
+                <div class="container">
+                    <div class="pbmit-title-bar-content">
+                        <div class="pbmit-title-bar-content-inner">
+                            <div class="pbmit-tbar">
+                                <div class="pbmit-tbar-inner container">
+                                    <h1 class="pbmit-tbar-title"> Contact</h1>
+                                </div>
+                            </div>
+                            <div class="pbmit-breadcrumb">
+                                <div class="pbmit-breadcrumb-inner">
+                                    <span>
+                                        <a title="" href="#"
+                                            class="home"><span>AnchorPointCargo</span></a>
+                                    </span>
+                                    <span class="sep">
+                                        <i class="pbmit-base-icon-angle-right"></i>
+                                    </span>
+                                    <span><span class="post-root post post-post current-item"> Contact</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Title Bar End-->
+        </header>
+        <!-- Header Main Area End Here -->
 
         {{ $slot }}
 
@@ -151,7 +174,8 @@
                         <div class="row">
                             <div class="pbmit-footer-widget-col-2 col-md-4">
                                 <aside class="widget">
-                                    <img class="logo-img" width="150" src="{{ asset('frontend/images/logo.png') }}" alt="AnchorPointCargo">
+                                    <img class="logo-img" width="150"
+                                        src="{{ asset('frontend/images/logo.png') }}" alt="AnchorPointCargo">
                                 </aside>
                             </div>
                             <div class="pbmit-footer-widget-col-3 col-md-2">
@@ -182,7 +206,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="pbmit-footer-copyright-text-area">
-                                        Copyright © {{ now()->year }} <a href="#">AnchorPointCargo</a>. All Rights Reserved.
+                                        Copyright © {{ now()->year }} <a href="#">AnchorPointCargo</a>. All
+                                        Rights Reserved.
                                     </div>
                                 </div>
                             </div>

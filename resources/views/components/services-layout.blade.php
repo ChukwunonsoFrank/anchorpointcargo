@@ -38,6 +38,27 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="{{ asset('frontend/css/responsive.css') }}">
+
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '74bdbcbbafb4badbb5e364a9bc9eb687b3f98e0d';
+        window.smartsupp || (function(d) {
+            var s, c, o = smartsupp = function() {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+
 </head>
 
 <body>
@@ -126,7 +147,8 @@
                             <div class="pbmit-breadcrumb">
                                 <div class="pbmit-breadcrumb-inner">
                                     <span>
-                                        <a title="" href="#" class="home"><span>AnchorPointCargo</span></a>
+                                        <a title="" href="#"
+                                            class="home"><span>AnchorPointCargo</span></a>
                                     </span>
                                     <span class="sep">
                                         <i class="pbmit-base-icon-angle-right"></i>
@@ -184,7 +206,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="pbmit-footer-copyright-text-area">
-                                        Copyright © {{ now()->year }} <a href="#">AnchorPointCargo</a>. All Rights
+                                        Copyright © {{ now()->year }} <a href="#">AnchorPointCargo</a>. All
+                                        Rights
                                         Reserved.
                                     </div>
                                 </div>
