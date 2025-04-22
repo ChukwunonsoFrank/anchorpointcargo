@@ -137,22 +137,22 @@
                                                             <label for="package_quantity">Package Quantity</label>
                                                             <input id="package_quantity" name="package_quantity"
                                                                 value="{{ $order->package_quantity }}"
-                                                                class="form-control mb-3 border" type="number">
+                                                                class="form-control mb-3 border" type="text">
 
                                                             <label for="total_freight">Total Freight</label>
                                                             <input id="total_freight" name="total_freight"
                                                                 value="{{ $order->total_freight }}"
-                                                                class="form-control mb-3 border" type="number">
+                                                                class="form-control mb-3 border" type="text">
 
                                                             <label for="weight">Weight (kg)</label>
                                                             <input id="weight" name="weight"
                                                                 value="{{ $order->weight }}"
-                                                                class="form-control mb-3 border" type="number">
+                                                                class="form-control mb-3 border" type="text">
 
                                                             <label for="star_points">Star Points</label>
                                                             <input id="star_points" name="star_points"
                                                                 value="{{ $order->star_points }}"
-                                                                class="form-control mb-3 border" type="number">
+                                                                class="form-control mb-3 border" type="text">
 
                                                             <label for="shipment_mode">Shipment Mode</label>
                                                             <select id="shipment_mode"
