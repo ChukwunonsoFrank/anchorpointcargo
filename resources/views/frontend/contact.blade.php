@@ -122,7 +122,7 @@
 		<!-- Ihbox End -->  
 
 		<!-- Contact Form -->
-		<section>
+		{{-- <section>
 			<div class="container">
 				<div class="row g-0">
 					<div class="col-md-12 col-xl-6">
@@ -177,7 +177,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> --}}
 		<!-- Contact Form End -->
 
 		<!-- Client Start --> 
